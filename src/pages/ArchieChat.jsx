@@ -7,7 +7,7 @@ import { Loader2, SendHorizonal } from 'lucide-react';
 
 export default function ArchieChat() {
   const [messages, setMessages] = useState([
-    { role: 'archie', text: 'Hi Vijay 👋 I'm ready. Just tell me what to do.' }
+    { role: 'archie', text: 'Hi Vijay 👋 I\'m ready. Just tell me what to do.' }
   ]);
   const [input, setInput] = useState('');
   const [loading, setLoading] = useState(false);
